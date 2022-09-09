@@ -1,5 +1,7 @@
 # QuantitativeAcoustophoresis
-Python scripts to analyze acoustophoresis data (https://pubs.acs.org/doi/10.1021/acsnanoscienceau.2c00002)
+Python script to analyze acoustophoresis data 
+Article: https://pubs.acs.org/doi/10.1021/acsnanoscienceau.2c00002
+Raw experimental data: https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/RMTHK5 
 
 To run the script, following Python libraries are needed:
 math, matplotlib, nptdms, numpy, os, pandas, ptitprince, scipy 
@@ -39,7 +41,7 @@ sample = "PMN"                      # material of the sample (PS/Silica/PMMA) or
 medium = "HEPES+"                    # PBS/water/glucose/HEPES+
 
 
-Also, the paths to the folders containing the calibration data (usually PS data measured on the same day), experimental data and script should be put in the according lines
+Also, the paths to the folders containing the calibration data (usually PS data measured on the same day), experimental data and script should be put in the according lines, for example:
 dir_calibr = r"E:\MyFiles\Experimental data\Acoustophoresis\20200923 - PMNs and empty liposomes 1 of 3\AP_4.65um_SAV_coated_PS_beads_10-0p45V_20x_recalibration"
 dir_data = r"E:\MyFiles\Experimental data\Acoustophoresis\20200923 - PMNs and empty liposomes 1 of 3\AP_PMNs_HEPES+_10-0p65V_20x\3"
 dir_script = r"E:\MyFiles\Scripts\Acoustophoresis"
